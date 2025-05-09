@@ -5,7 +5,7 @@ export default function index() {
     <View style={styles.container}>
       <View>
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/tutuwigui.jpg')}
           style={styles.logo}
         ></Image>
       </View>
@@ -23,7 +23,7 @@ export default function index() {
           />
           <Button
             title="Entrar"
-            color="#841584"
+            color="#8BFA90"
           />
         </View>
       <View/>
@@ -39,9 +39,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   logo: {
-    width: 400,
+    width: 200,
     height: 200,
     marginBottom: 30,
+    borderWidth: 2,
+    borderColor: '#fff',
   },
   legenda: {
     fontSize: 16,
@@ -49,9 +51,10 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   textBoxContainer: {
-    width: '25%',
+    width: '50%',
     justifyContent: 'center',
     marginBottom: 15,
+    textAlign: 'center',
   },
   textBox: {
     borderWidth: 1,
@@ -59,5 +62,7 @@ const styles = StyleSheet.create({
     marginBottom:20,
     borderRadius: 5,
     padding: 10,
+    textAlign: 'center',
+    width: '100%',
   },
 });
